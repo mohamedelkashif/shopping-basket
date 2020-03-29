@@ -49,7 +49,7 @@ Get the items of a shopping basket
 curl -X GET 'http://localhost:9000/api/basket/<UUID>'
 ```
 
-Add an item to the shopping basket ==> 
+Add an item to the shopping basket
 ```bash
 curl -X PUT 'http://localhost:9000/api/basket/<UUID>' \
  -d '{"initialAmount": 1, "price":4}'
