@@ -55,11 +55,6 @@ curl -X PUT 'http://localhost:9000/api/basket/<UUID>' \
  -d '{"initialAmount": 1, "price":4}'
 ```
 
-Update the amount of an item in the shopping basket
-```bash
-curl -X PUT 'http://localhost:9000/api/basket/<UUID>' \
- -d '{	"itemId": "50cd3a07-4c13-459a-a295-f4a0a2584540", "newAmount": "3"}'
-```
 
 ## Author
 [Mohamed Elkashif](mailto:mohamedelkashif922@gmail.com
